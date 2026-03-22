@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .ctrl {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 10px;
+      }
+      .left {
+        display: flex;
+        align-items: center;
+      }
+
+        body{
+            background-color: rgb(141, 167, 222);
+            padding: 50px;
+        }
+        form {
+        width: 500px;
+        border-width: 1px;
+        margin-top: 15px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 5px;
+        padding: 30px;
+        text-align: left;
+      }
+      input{
+        border-width: 0;
+      }
+      label,
+      h3{
+        font-family:Khmer OS Metal Chrieng ;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+</head>
+<body>
+    <div class="ctrl">
+      <div class="left">
+        <a href="">❌</a>
+      </div>
+      <div class="center">
+        <h2>Short course</h2>
+      </div>
+      <div class="right">
+        <a href="#">📩</a>
+      </div>
+    </div>
+
+    <center>
+    <form class="cc1">
+        <div>
+            <h3>សូមបញ្ចូលកម្រិតភាសាអង់គ្លេសរបស់អ្នក</h3>
+            <input type="radio" class="chk" />
+            <label for="">ល្អ</label><br>
+            <input type="radio" class="chk" />
+            <label for="">មធ្យម</label><br>
+            <input type="radio" class="chk" />
+            <label for="">គួរសម</label>
+        </div> 
+    </form>
+    <form class="cc2">
+        <div>
+            <h3>តើអ្នកធ្លាប់ប្រើកុំព្យូទ័រយូរប៉ុណ្ណា?</h3>
+                <input type="radio" class="chk" />
+                <label for="">1 ឆ្នាំ</label><br>
+                <input type="radio" class="chk" />
+                <label for="">3 ឆ្នាំ</label><br>
+                <input type="radio" class="chk" />
+                <label for="">5 ឆ្នាំ</label><br>
+                <input type="radio" class="chk" />
+                <label for="">ផ្សេងៗ៖</label>
+                <input type="text" placeholder="....................">
+        </div>
+    </form>
+    <form class="cc3">
+        <div>
+            <h3>សម្រាប់ម៉ោងសិក្សា ចន្ទ-សុក្រ មាន 2 វេន</h3>
+            <input type="radio" class="chk" />
+            <label for="">9:30-10:30 នាទីយប់</label><br>
+            <input type="radio" class="chk" />
+            <label for="">10:40-11:40 នាទីយប់</label><br>
+            <input type="radio" class="chk" />
+            <label for="">ផ្សេងៗ៖</label>
+            <input type="text" placeholder="....................">
+        </div>
+    </form></center>
+</body>
+</html>
